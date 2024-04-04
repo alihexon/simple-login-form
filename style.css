@@ -1,1 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: Poppins, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  width: 500px;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 12px;
+  padding: 50px 25px;
+  margin: 0 auto;
+}
+
+.form h1 {
+  font-size: 1.6em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form form p {
+  margin-top: 14px;
+}
+
+.form form input {
+  width: 100%;
+  padding: 7px 14px;
+  margin: 7px 0;
+  border: none;
+  outline: none;
+  color: #6c6c6c;
+  border-bottom: 1px solid #6c6c6c;
+}
+
+.form form p,
+.form form input,
+.row {
+  font-size: 0.95em;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row a {
+  color: #6c6c6c;
+  text-decoration: none;
+  transition: color 0.25s ease-in-out;
+}
+
+.row a:hover {
+  color: #6060d4;
+}
+
+.login-btn {
+  font-size: 16px;
+  background-color: #6060d4;
+  color: #fff;
+  width: 100%;
+  padding: 8px 0;
+  margin: 25px 0 40px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.login-btn:hover {
+  background-color: #4d4dbd;
+}
+
+.login-btn:active,
+.options button:active {
+  opacity: 0.8;
+}
+
+.others p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.options button {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.25s ease-in-out;
+}
+
+.options button:hover {
+  transform: scale(1.2);
+}
+
+.facebook-btn {
+  background-color: #3D5993;
+}
+
+.twitter-btn {
+  background-color: #4CA0EE;
+}
+
+.google-btn {
+  background-color: #DA4F3D;
+}
+
+.options button i {
+  font-size: 2em;
+}
